@@ -1,4 +1,4 @@
-package com.company.hometask.oop;
+package com.company.hometask;
 
 public class Main {
 
