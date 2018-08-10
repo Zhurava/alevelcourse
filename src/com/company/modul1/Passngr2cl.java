@@ -4,12 +4,12 @@ public class Passngr2cl implements Wagon {
     private int capacity;
 
     Passngr2cl() {
-        capacity = 100 + (int) (Math.random() * 200);
+        capacity = (int) (Math.random() * 100);
     }
 
     @Override
     public String display() {
-        return "=[:Пасс2кл:" + capacity + ']';
+        return "=[:passngr2cl:" + capacity + ']';
     }
 
     public int getCapacity() {

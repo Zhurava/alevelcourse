@@ -9,7 +9,7 @@ public class Cargo implements Wagon {
 
     @Override
     public String display() {
-        return "=[:Груз:" + capacity + "%]";
+        return "=[:cargo:" + capacity + "%]";
     }
 
     public int getCapacity() {

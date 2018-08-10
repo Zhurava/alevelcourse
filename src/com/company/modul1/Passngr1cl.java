@@ -9,7 +9,7 @@ public class Passngr1cl implements Wagon {
 
     @Override
     public String display() {
-        return "=[:Пасс1кл:" + capacity + ']';
+        return "=[:passngr1cl:" + capacity + ']';
     }
 
     public int getCapacity() {
